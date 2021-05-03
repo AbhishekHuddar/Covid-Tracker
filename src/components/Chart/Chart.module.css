@@ -1,0 +1,14 @@
+.container {
+    background-color: rgb(216, 213, 172);
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    font-size:larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      width: 100%;
+    }
+  }
